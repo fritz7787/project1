@@ -1,7 +1,3 @@
-body {
-  background-image: url("../images/black.jpg");
-}
-
 #page-wrapper {
   width: 960px;
   margin: 0 auto;
@@ -24,11 +20,7 @@ body {
   color: #E35335;
 }
 
-#header a#logo1 img {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
+
 
 #header #toplink {
   text-decoration: none;
@@ -45,10 +37,7 @@ body {
   clear: both;
 }
 
-#content-wrapper {
-  background-image: url("../images/repeating.png");
-  float: left;
-}
+
 
 #main-content {
   min-height: 300px;
