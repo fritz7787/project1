@@ -20,7 +20,7 @@ tr {
 }
 
 .image-p {
-  float: right;
+  float: center;
   width: 300px;
   padding: 5px;
   background-color: white;
