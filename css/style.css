@@ -40,9 +40,15 @@ p {
 }
 
 div {
-  top: 20px;
+  top: 10px;
   font-size: 1em;
   font-family: 'Georgia', cursive;
   color: black;
   text-align: center;
+  background: blue;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
 }
