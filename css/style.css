@@ -1,0 +1,75 @@
+body {
+  background-image: url("../images/stars.jpeg");
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  top: 20px;
+  font-size: 3em;
+  font-family: 'Georgia', cursive;
+  color: white;
+  text-align: center;
+}
+td {
+  top:5px;
+  font-size: 1em;
+  font-family: 'Georgia', cursive;
+}
+
+tr {
+  background-color: white;
+}
+.image-p {
+  float: right;
+  width: 300px;
+  padding: 5px;
+  background-color: white;
+  margin: 10px 0 10px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-s {
+  float: right;
+  width: 200px;
+  padding: 5px;
+  background-color: white;
+  margin: 10px 0 10px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row2 {
+  text-align: center;
+  color: RoyalBlue;
+}
+.row3 {
+  text-align: center;
+  color: Maroon;
+}
+.row4 {
+  text-align: center;
+  color: LightPink;
+}
+.row5 {
+  text-align: center;
+  color: MediumOrchid;
+}
+.row6 {
+  text-align: center;
+  color: ;
+}
+.row7 {
+  text-align: center;
+  color: Orchid;
+}
+.row8 {
+  text-align: center;
+  color: PaleVioletRed;
+}
+.row9 {
+  text-align: center;
+  color: SeaGreen;
+}
