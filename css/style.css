@@ -31,7 +31,7 @@ tr {
 }
 
 u1,li {
-  text-align: center;
+  padding-left: 20px;
   color: black;
 }
 
@@ -45,7 +45,7 @@ div {
   font-family: 'Georgia', cursive;
   color: black;
   text-align: center;
-  background: blue;
+  background: #f9d4cc;
   padding: 20px;
   margin: 20px auto;
   border-radius: 8px;
