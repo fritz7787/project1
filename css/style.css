@@ -38,3 +38,11 @@ u1 {
 p {
   text-align: center;
 }
+
+div {
+  top: 20px;
+  font-size: 1em;
+  font-family: 'Georgia', cursive;
+  color: black;
+  text-align: center;
+}
