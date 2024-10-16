@@ -2,7 +2,7 @@ h1 {
   top: 20px;
   font-size: 3em;
   font-family: 'Georgia', cursive;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -26,4 +26,6 @@ tr {
   color: black;
 }
 
-
+p {
+  text-align: center;
+}
