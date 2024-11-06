@@ -40,6 +40,14 @@ u1,li {
   color: black;
 }
 
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 p {
   text-align: center;
 }
