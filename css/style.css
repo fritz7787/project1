@@ -58,23 +58,6 @@ nav ul li {
   margin: 0 20px;
 }
 
-nav ul li a {
-  display: block;
-  border: 2px dotted white;
-  padding: 10px;
-  font-family: "Courier Prime", "Courier New";
-  font-weight: 600;
-  font-style: normal;
-  font-size: 25px;
-  text-decoration: none;
-  color: white;
-}
-
-nav ul li#onPage a {
-  background-color: white;
-  color: #ffcfe6;
-}
-
 nav ul li a:hover {
   text-decoration: underline;
 }
