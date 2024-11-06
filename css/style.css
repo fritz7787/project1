@@ -6,7 +6,7 @@
 h1 {
   top: 20px;
   font-size: 3em;
-  font-family: 'Georgia', cursive;
+  font-family: 'Georgia';
   color: black;
   text-align: center;
 }
@@ -41,7 +41,7 @@ p {
 div {
   top: 10px;
   font-size: 1em;
-  font-family: 'Georgia', cursive;
+  font-family: 'Georgia';
   color: black;
   text-align: center;
   background: #f9d4cc;
