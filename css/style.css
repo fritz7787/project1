@@ -40,6 +40,11 @@ u1,li {
   color: black;
 }
 
+nav {
+  border-bottom: 3px solid white;
+  text-align: center;
+}
+
 nav ul {
   display: inline-block;
   list-style-type: none;
