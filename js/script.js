@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function initMap() {
     const mapOptions = {
-      center: { lat: 39.828358060251446, lng: -98.57948392933929 },
+      center: { lat: 41.8729, lng: -87.62793 },
       zoom: 12,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       streetViewControl: true,
@@ -14,13 +14,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
     const marker = new google.maps.Marker({
-      position: { lat: 39.828358060251446, lng: -98.57948392933929 },
+      position: { lat: 41.8729, lng: -87.62793 },
       map: map,
-      title: "Geographic Center of the United States"
+      title: "Jones College Prep"
     });
 
     const infoWindow = new google.maps.InfoWindow({
-      content: "<p>Geographic Center of the United States</p>"
+      content: "<p>Jones College Prep - My current High School!</p>"
     });
 
     marker.addListener("click", function() {
