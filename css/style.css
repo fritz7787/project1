@@ -97,7 +97,9 @@ body, h1, h3, p, li, .image-p, .vid, nav ul li {
 }
 
 #map {
-  height: 100%;
+  height: 400px;
+  width: 100%;
+  background-color: white; 
 }
 
 @media (min-width: 600px) {
