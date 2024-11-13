@@ -96,6 +96,10 @@ body, h1, h3, p, li, .image-p, .vid, nav ul li {
   max-width: 100%;
 }
 
+#map {
+  height: 100%;
+}
+
 @media (min-width: 600px) {
   body {
     font-size: 1.1rem;
