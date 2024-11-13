@@ -5,52 +5,38 @@
 
 body {
   background-color: white;
+  font-size: 1rem;
+  font-family: 'Georgia', serif;
+}
+
+h1, h3 {
+  text-align: center;
+  color: black;
 }
 
 h1 {
-  top: 20px;
   font-size: 3em;
-  font-family: 'Georgia';
-  color: black;
-  text-align: center;
+  margin-top: 20px;
 }
 
 h3 {
+  font-size: 1.5em;
+}
+
+p {
   text-align: center;
-}
-
-tr {
-  background-color: white;
-}
-
-.image-p {
-  width: 300px;
-  padding: 5px;
-  background-color: white;
-  margin: 10px 0 10px 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-u1,li {
-  text-decoration: none;
-  list-style-type: none;
-  padding-left: 20px;
-  color: black;
 }
 
 nav {
   text-align: center;
   background-color: white;
+  padding: 10px;
 }
 
 nav ul {
   display: inline-block;
   list-style-type: none;
-  margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 nav ul li {
@@ -58,18 +44,17 @@ nav ul li {
   margin: 0 20px;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 nav ul li a:hover {
   text-decoration: underline;
 }
 
-p {
-  text-align: center;
-}
-
 div {
-  top: 10px;
   font-size: 1em;
-  font-family: 'Georgia';
   color: black;
   text-align: center;
   background: #f9d4cc;
@@ -80,6 +65,33 @@ div {
   max-width: 800px;
 }
 
+.image-p {
+  width: 300px;
+  padding: 5px;
+  background-color: white;
+  display: block;
+  margin: 10px auto;
+}
+
 .vid {
-  width:300px;
+  width: 300px;
+}
+
+ul, ol, li {
+  list-style-type: none;
+  text-decoration: none;
+  padding-left: 20px;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+body, h1, h3, p, li, .image-p, .vid, nav ul li {
+  font-size: 1rem;
+  max-width: 100%;
 }
