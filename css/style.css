@@ -154,3 +154,7 @@ body, h1, h3, p, li, .image-p, .vid, nav ul li {
     margin: 25px auto;
   }
 }
+section div{
+  background: none;
+  box-shadow: none;
+}
