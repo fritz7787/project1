@@ -49,13 +49,13 @@
       infoWindow1.open(map, marker1);
     });
 		
-      const centerControlDiv = document.createElement("section");
+      const centerControlDiv = document.createElement("div");
       const centerControl = createCenterControl(centerControlDiv, map, marker);
       map.controls[google.maps.ControlPosition.TOP_RIGHT].push(centerControlDiv);
     }
   
     function createCenterControl(controlDiv, map, marker) {
-      const controlUI = document.createElement("section");
+      const controlUI = document.createElement("div");
       controlUI.classList.add("custom-control");
       controlUI.title = "Click to center the map on the marker";
       controlUI.innerText = "Center Map on Marker";
